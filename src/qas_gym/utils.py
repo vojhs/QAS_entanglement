@@ -1,4 +1,4 @@
-# QAS_entanglement
+# QAS-entanglement
 # Copyright (C) 2024 [vojhs]
 #
 # This program is free software: you can redistribute it and/or modify
@@ -212,4 +212,5 @@ class CXRVGate(cirq.Gate):
 
     def __str__(self):
         return "CXRVGate"
+
 
