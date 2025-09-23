@@ -1,3 +1,23 @@
+# QAS_entanglement
+# Copyright (C) 2024 [vojhs]
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+#
+# This file contains modifications based on the project "quantum-arch-search",
+# which is also licensed under GPLv3. The original project can be found at:
+# https://github.comcom/qdevpsi3/quantum-arch-search
+
 from typing import Dict, List, Optional, Union
 
 import cirq
@@ -192,3 +212,4 @@ class CXRVGate(cirq.Gate):
 
     def __str__(self):
         return "CXRVGate"
+
